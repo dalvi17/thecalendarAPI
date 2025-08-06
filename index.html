@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Holiday Calendar API Assignment</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Publics Holidays</h1>
+
+    <form id="holiday_form">
+      <select id="country">
+        <option value="IN">India</option>
+        <option value="CA">Canada</option>
+        <option value="US">United States</option>
+      </select>
+
+      <input type="number" id="year" placeholder="Year" value="2025" required />
+      <button type="submit">Get Holidays</button>
+    </form>
+
+    <div id="holidayResults"></div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
