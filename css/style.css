@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif; /* Using Arial fonts as confuse which one is better*/
+  background: #f4f4f4; /* light grey kind of color for differentiation in Background and container*/
+  padding: 50px; /* Padding 50px for better view*/
+}
+
+.container {
+  background: white; /* It will help to have better contrast in the background of page and container*/
+  padding: 20px; /* Padding 20px for better space in all elements*/
+  border-radius: 8px; /* avoiding sharp corners for soft curves of the box*/
+  max-width: 700px; /* smallest size of width for mobile views*/
+  margin: auto;/* will be automatically applied according to the need*/
+}
+
+form {
+  margin-bottom: 20px; /* Keeping distance from bottom*/
+}
+
+h1{
+    color:crimson;
+}
+input, select, button {
+  padding: 10px; /* For clear view of buttons and accessibility of the buttons on all devices*/
+  margin: 5px;
+  background-color: blueviolet;
+  color: #fff;
+}
+
+#holidayResults {
+  margin-top: 20px; /* Having space at top helps us t differentiate between the form and the result after submit*/
+}
+ 
